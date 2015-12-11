@@ -1,7 +1,6 @@
 package hello;
 
 import org.joda.time.LocalTime;
-import java.net.InetAddress;
 
 public class HelloWorld {
 	public static void main(String[] args) {
