@@ -2,10 +2,10 @@
  * Created by admin on 12/11/15.
  */
 
-package hello;
+//package hello;
 
-public class Pusher {
-    public String push()
+class Pusher {
+    String push()
     {
         return "Push you!";
     }
