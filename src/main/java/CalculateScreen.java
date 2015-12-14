@@ -12,9 +12,9 @@ public class CalculateScreen {
         calc.execute(args);
     }*/
 
-    public void execute(String [] args){
-        long op1 = Long.parseLong(args[0]);
-        long op2 = Long.parseLong(args[1]);
+    public void execute(String[] args){
+        long op1 = Long.parseLong("20");
+        long op2 = Long.parseLong("5");
         System.out.println("Result of " +op1 + ops.getOpsName()+ op2+" is " +ops.operate(op1,op2));
         System.out.println("Result of " +op1 + opsm.getOpsName()+ op2+" is " +opsm.operate(op1,op2));
 

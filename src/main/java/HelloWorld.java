@@ -14,6 +14,7 @@ public class HelloWorld {
 		System.out.println(greeter.sayBye());
 		CalculateScreen calc = new CalculateScreen();
 		calc.execute(args);
-
+		CalculateSpring cs = new CalculateSpring();
+		cs.calculateSpring(args);
 	}
 }
